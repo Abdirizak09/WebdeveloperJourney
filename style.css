@@ -158,6 +158,24 @@ footer {
     bottom: 0;
 }
 
+/* Existing styles */
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.testimonial p {
+    margin: 0;
+}
+
+.testimonial p:first-child {
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 24px;

@@ -35,8 +35,36 @@ section {
     margin-bottom: 20px;
 }
 
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
 .project {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project a:hover {
+    background-color: #555;
 }
 
 form label {
@@ -63,7 +91,15 @@ button:hover {
     background-color: #555;
 }
 
-/* Existing styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 @media (max-width: 768px) {
     header h1 {
@@ -88,13 +124,4 @@ button:hover {
         position: static;
         padding: 10px 0;
     }
-}
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }

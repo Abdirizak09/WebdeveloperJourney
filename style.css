@@ -67,15 +67,16 @@ section {
     background-color: #555;
 }
 
-form label {
-    display: block;
-    margin-top: 10px;
+
+
+/* Existing styles */
+
+form input:invalid, form textarea:invalid {
+    border: 2px solid red;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
+form input:valid, form textarea:valid {
+    border: 2px solid green;
 }
 
 button {
@@ -89,6 +90,22 @@ button {
 
 button:hover {
     background-color: #555;
+}
+
+/* Existing styles */
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
 }
 
 footer {
